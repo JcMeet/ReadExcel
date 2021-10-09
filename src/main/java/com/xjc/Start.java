@@ -130,7 +130,7 @@ public class Start {
         File file = new File(path);
         try {
             readExcel(file, rowCount, sheetIndex);//开始
-            System.out.println("=====读取完毕=====");
+            System.out.println("======读取完毕======");
         } catch (Exception e) {
             e.printStackTrace();
         }
